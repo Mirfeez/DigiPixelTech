@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-<<<<<<< HEAD
 /* not found page  */
 @import url("https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css");
 
@@ -97,8 +96,8 @@
    left: 50%;
    transform: translate(-50%, -50%);
    animation: float 6s ease-in-out infinite, tilt 6s ease-in-out infinite;
-=======
-.contact{
-    background: url('img/Logo/contact.png');
->>>>>>> 3b1e5cb701865e4e69e5b43183d253bfe853e943
+
+   .contact {
+      background: url('img/Logo/contact.png');
+   }
 }

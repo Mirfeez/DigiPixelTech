@@ -1,7 +1,6 @@
 import { useState } from "react";
 import logo from "../img/Logo/dpt-logo.png";
 
-
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
@@ -16,19 +15,19 @@ const Navbar = () => {
 				<h1 className="text-xl font-bold text-purple-600">DigiPixelTech</h1>
 			</div>
 			<ul className="hidden md:flex gap-6 font-medium">
-				<li className="cursor-pointer hover:text-purple-500 transition-colors">
+				<li className="cursor-pointer  hover:text-purple-500 transition-colors">
 					<a href="pages/Home.jsx">Home</a>
 				</li>
-				<li className="cursor-pointer hover:text-purple-500 transition-colors">
+				<li className="cursor-pointer  hover:text-purple-500 transition-colors">
 					<a href="pages/Services.jsx">Services</a>
 				</li>
-				<li className="cursor-pointer hover:text-purple-500 transition-colors">
+				<li className="cursor-pointer  hover:text-purple-500 transition-colors">
 					<a href="pages/Projects.jsx">Projects</a>
 				</li>
-				<li className="cursor-pointer hover:text-purple-500 transition-colors">
+				<li className="cursor-pointer  hover:text-purple-500 transition-colors">
 					<a href="pages/About.jsx">About</a>
 				</li>
-				<li className="cursor-pointer hover:text-purple-500 transition-colors">
+				<li className="cursor-pointer  hover:text-purple-500 transition-colors">
 					<a href="pages/Contact.jsx">Contact</a>
 				</li>
 			</ul>
@@ -74,17 +73,17 @@ const Navbar = () => {
 			</button>
 			{/* Mobile menu panel */}
 			{isOpen && (
-				<ul className="md:hidden absolute right-4 top-full mt-2 bg-black border  border-purple-500 shadow-md rounded-md py-2 px-4 flex flex-col gap-2">
-					<li className="cursor-pointer  hover:text-purple-500 transition-colors">
+				<ul className="md:hidden absolute right-4 top-full mt-1 bg-black border  border-purple-500 shadow-md rounded-md py-2 px-2 flex flex-col gap-2">
+					<li className="cursor-pointer rounded text-center p-2  hover:bg-purple-500 transition-colors">
 						Homes
 					</li>
-					<li className="cursor-pointer hover:text-purple-500 transition-colors">
+					<li className="cursor-pointer rounded text-center p-2  hover:bg-purple-500 transition-colors">
 						Services
 					</li>
-					<li className="cursor-pointer hover:text-purple-500 transition-colors">
+					<li className="cursor-pointer rounded text-center p-2  hover:bg-purple-500 transition-colors">
 						About
 					</li>
-					<li className="cursor-pointer hover:text-purple-500 transition-colors">
+					<li className="cursor-pointer rounded text-center p-2  hover:bg-purple-500 transition-colors">
 						Contact
 					</li>
 				</ul>

@@ -16,7 +16,7 @@ const Contact = () => {
 				<input
 					type="text"
 					className="border-b-2 mb-8 py-2 px-2 w-150"
-					placeholder="Enter Your Gmail"
+					placeholder="Enter Your E-mail"
 				/>
 				<input
 					type="text"

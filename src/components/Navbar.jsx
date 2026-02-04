@@ -1,5 +1,7 @@
 import { useState } from "react";
 import logo from "../img/Logo/dpt-logo.png";
+import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -72,7 +74,7 @@ const Navbar = () => {
 			{isOpen && (
 				<ul className="md:hidden absolute right-4 top-full mt-2 bg-black border  border-purple-500 shadow-md rounded-md py-2 px-4 flex flex-col gap-2">
 					<li className="cursor-pointer  hover:text-purple-500 transition-colors">
-						Home
+						Homes
 					</li>
 					<li className="cursor-pointer hover:text-purple-500 transition-colors">
 						Services

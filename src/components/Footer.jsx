@@ -36,28 +36,28 @@ const Footer = () => {
         <div className="flex flex-col justify-center">
           <a
             href="https://www.instagram.com/digipixeltech/"
-            className="decoration-0 p-3 rounded-full hover:bg-white hover:shadow hover:shadow-white"
+            className="decoration-0 p-3 rounded-full hover:bg-white hover:shadow hover:shadow-white hover:text-pink-500"
           >
-            <Instagram size={30} className="hover:text-pink-500 " />
+            <Instagram size={30} className=" " />
           </a>
-          <a href="" className="p-3 hover:bg-white rounded-full">
+          <a href="" className="p-3 hover:bg-white rounded-full hover:text-blue-700">
             <Linkedin
               size={30}
               strokeWidth={1.25}
-              className="hover:text-blue-700"
+              className=""
             />
           </a>
           <a
             href="mailto:digipixeltech43@gmail.com"
-            className="p-3 hover:bg-white rounded-full"
+            className="p-3 hover:bg-white rounded-full hover:text-orange-500"
           >
-            <Mail size={30} strokeWidth={1.25} className="hover:text-orange-500" />
+            <Mail size={30} strokeWidth={1.25} className="" />
           </a>
           <a
             href="https://wa.me/917411712661"
-            className="p-3 rounded-full hover:bg-white"
+            className="p-3 rounded-full hover:bg-white hover:text-green-400"
           >
-            <Whatsapp size={30} className="hover:text-green-400"/>
+            <Whatsapp size={30} className=""/>
           </a>
         </div>
       </footer>

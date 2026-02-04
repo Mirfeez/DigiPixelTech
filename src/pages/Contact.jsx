@@ -1,7 +1,6 @@
 import React from "react";
 
 const Contact = () => {
-
   return (
     <>
     <p className="contact w-full h-150 bg-cover text-4xl relative flex items-baseline-last sm:w-full">Contact Us Here</p>
@@ -31,6 +30,6 @@ const Contact = () => {
     </div>
     </>
   );
-}
+};
 
 export default Contact;

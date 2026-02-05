@@ -102,6 +102,9 @@
 
 .contact {
    background: url('img/banner/contact.png');
+   background-size: cover;
+   background-position: center;
+   /* box-shadow: inset 0 0 100px 85px var(--theme); */
 }
 
 /* .iframe{
@@ -118,6 +121,6 @@ iframe::-webkit-scrollbar{
 
 
 /* profile page  */
-.bg-img-projects{
-   box-shadow: inset 0 0 100px 85px var(--theme) ;
+.bg-img-projects {
+   box-shadow: inset 0 0 100px 85px var(--theme);
 }

@@ -2,8 +2,11 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import { Instagram, Whatsapp } from "react-bootstrap-icons";
 import { Mail } from "lucide-react";
+import Team from "./aboutTeam/Team";
 
-const About = () => {
+const About = (props) => {
+  
+
   return (
     <div className="px-10 mt-5">
       <div>
@@ -50,187 +53,9 @@ const About = () => {
       <div className="mt-20">
         <h1 className="text-3xl flex justify-center mb-10">Meet Our Team</h1>
         <div className="grid grid-cols-5">
-          <div className="border-2 w-60 h-90 flex flex-col items-center p-5 mt-5">
-            <img
-              src=""
-              alt=""
-              className="h-30 w-30 rounded-full bg-amber-700 mt-5"
-            />
-            <h3 className="text-lg">Name</h3>
-            <p>Role</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-              rem.
-            </p>
-            <div className="list-none flex flex-row gap-5 justify-around mt-6">
-                <li><Instagram size={18} /></li>
-                <li><Whatsapp size={18} /></li>
-                <li><Mail size={18} /></li>
-            </div>
-          </div>
-          <div className="border-2 w-60 h-90 flex flex-col items-center p-5 mt-5">
-            <img
-              src=""
-              alt=""
-              className="h-30 w-30 rounded-full bg-amber-700 mt-5"
-            />
-            <h3 className="text-lg">Name</h3>
-            <p>Role</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-              rem.
-            </p>
-            <div className="list-none flex flex-row gap-5 justify-around mt-6">
-                <li><Instagram size={18} /></li>
-                <li><Whatsapp size={18} /></li>
-                <li><Mail size={18} /></li>
-            </div>
-          </div>
-          <div className="border-2 w-60 h-90 flex flex-col items-center p-5 mt-5">
-            <img
-              src=""
-              alt=""
-              className="h-30 w-30 rounded-full bg-amber-700 mt-5"
-            />
-            <h3 className="text-lg">Name</h3>
-            <p>Role</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-              rem.
-            </p>
-            <div className="list-none flex flex-row gap-5 justify-around mt-6">
-                <li><Instagram size={18} /></li>
-                <li><Whatsapp size={18} /></li>
-                <li><Mail size={18} /></li>
-            </div>
-          </div>
-          <div className="border-2 w-60 h-90 flex flex-col items-center p-5 mt-5">
-            <img
-              src=""
-              alt=""
-              className="h-30 w-30 rounded-full bg-amber-700 mt-5"
-            />
-            <h3 className="text-lg">Name</h3>
-            <p>Role</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-              rem.
-            </p>
-            <div className="list-none flex flex-row gap-5 justify-around mt-6">
-                <li><Instagram size={18} /></li>
-                <li><Whatsapp size={18} /></li>
-                <li><Mail size={18} /></li>
-            </div>
-          </div>
-          <div className="border-2 w-60 h-90 flex flex-col items-center p-5 mt-5">
-            <img
-              src=""
-              alt=""
-              className="h-30 w-30 rounded-full bg-amber-700 mt-5"
-            />
-            <h3 className="text-lg">Name</h3>
-            <p>Role</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-              rem.
-            </p>
-            <div className="list-none flex flex-row gap-5 justify-around mt-6">
-                <li><Instagram size={18} /></li>
-                <li><Whatsapp size={18} /></li>
-                <li><Mail size={18} /></li>
-            </div>
-          </div>
-          <div className="border-2 w-60 h-90 flex flex-col items-center p-5 mt-5">
-            <img
-              src=""
-              alt=""
-              className="h-30 w-30 rounded-full bg-amber-700 mt-5"
-            />
-            <h3 className="text-lg">Name</h3>
-            <p>Role</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-              rem.
-            </p>
-            <div className="list-none flex flex-row gap-5 justify-around mt-6">
-                <li><Instagram size={18} /></li>
-                <li><Whatsapp size={18} /></li>
-                <li><Mail size={18} /></li>
-            </div>
-          </div>
-          <div className="border-2 w-60 h-90 flex flex-col items-center p-5 mt-5">
-            <img
-              src=""
-              alt=""
-              className="h-30 w-30 rounded-full bg-amber-700 mt-5"
-            />
-            <h3 className="text-lg">Name</h3>
-            <p>Role</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-              rem.
-            </p>
-            <div className="list-none flex flex-row gap-5 justify-around mt-6">
-                <li><Instagram size={18} /></li>
-                <li><Whatsapp size={18} /></li>
-                <li><Mail size={18} /></li>
-            </div>
-          </div>
-          <div className="border-2 w-60 h-90 flex flex-col items-center p-5 mt-5">
-            <img
-              src=""
-              alt=""
-              className="h-30 w-30 rounded-full bg-amber-700 mt-5"
-            />
-            <h3 className="text-lg">Name</h3>
-            <p>Role</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-              rem.
-            </p>
-            <div className="list-none flex flex-row gap-5 justify-around mt-6">
-                <li><Instagram size={18} /></li>
-                <li><Whatsapp size={18} /></li>
-                <li><Mail size={18} /></li>
-            </div>
-          </div>
-          <div className="border-2 w-60 h-90 flex flex-col items-center p-5 mt-5">
-            <img
-              src=""
-              alt=""
-              className="h-30 w-30 rounded-full bg-amber-700 mt-5"
-            />
-            <h3 className="text-lg">Name</h3>
-            <p>Role</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-              rem.
-            </p>
-            <div className="list-none flex flex-row gap-5 justify-around mt-6">
-                <li><Instagram size={18} /></li>
-                <li><Whatsapp size={18} /></li>
-                <li><Mail size={18} /></li>
-            </div>
-          </div>
-          <div className="border-2 w-60 h-90 flex flex-col items-center p-5 mt-5">
-            <img
-              src=""
-              alt=""
-              className="h-30 w-30 rounded-full bg-amber-700 mt-5"
-            />
-            <h3 className="text-lg">Name</h3>
-            <p>Role</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-              rem.
-            </p>
-            <div className="list-none flex flex-row gap-5 justify-around mt-6">
-                <li><Instagram size={18} /></li>
-                <li><Whatsapp size={18} /></li>
-                <li><Mail size={18} /></li>
-            </div>
-          </div>
-          
+          {props.teamMembers.map(function(elem) {
+          return <Team img={elem.img} Name={elem.Name} Role={elem.Role} desc={elem.desc} />
+          })}
         </div>
       </div>
     </div>

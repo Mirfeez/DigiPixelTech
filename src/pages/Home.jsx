@@ -26,11 +26,15 @@ const Home = () => {
         <div className="flex gap-10 m-10">
           <div class="card w-1/3 p-10 bg-">
             <h2 class="text-center text-xl mb-2">Frontend Development</h2>
-            <p class="text-center text-gray-400">Building responsive, fast, and accessible user interfaces.</p>
+            <p class="text-center text-gray-400">
+              Building responsive, fast, and accessible user interfaces.
+            </p>
           </div>
           <div class="card w-1/3 p-10">
             <h2 class="text-center text-xl mb-2">Business Websites</h2>
-            <p class="text-center text-gray-400">Creating professional websites for businesses and portfolios.</p>
+            <p class="text-center text-gray-400">
+              Creating professional websites for businesses and portfolios.
+            </p>
           </div>
           <div class="card w-1/3 p-10 bg-">
             <h2 class="text-center text-xl mb-2">Landing Pages</h2>
@@ -40,8 +44,32 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="h-150">
         <h1>Featured Projects</h1>
+      </div>
+      <div>
+        <h1 class="text-4xl flex justify-center mb-20">How We Work</h1>
+        <div className="flex flex-row ml-5">
+          <div className="p-10 pr-8 w-1/4">
+            <h2>1. Planning</h2>
+            <p>Understanding goals and requirements.</p>
+          </div>
+		  <div className="text-4xl flex items-center pb-9"> {`>`} </div>
+          <div className="p-10 w-1/4">
+            <h2>2. Design</h2>
+            <p> Creating clean and usable layouts.</p>
+          </div>
+		 <div className="text-4xl flex items-center pb-10"> {`>`} </div>
+          <div className="p-8 w-1/4">
+            <h2>3. Development</h2>
+            <p>Building responsive front-end interfaces.</p>
+          </div>
+		 <div className="text-4xl flex items-center pb-10"> {`>`} </div>
+          <div className="p-10 w-1/4 pt-7">
+            <h2>4. Delivery</h2>
+            <p> Testing and final deployment.</p>
+          </div>
+        </div>
       </div>
     </>
   );

@@ -79,25 +79,8 @@
 }
 
 /* services  */
-@keyframes sideBySide{
-   0%{
-      transform: translateX(0);
-   }
-   25%{
-      transform: translateX(-25%);
-   }
-   50%{
-      transform: translateX(-50%);
-   }
-   75%{
-      transform: translateX(-75%);
-   }
-   100%{
-      transform: translateX(-100%);
-   }
-}
 
-@keyframes side{
+@keyframes slide{
    from{
       transform: translateX(0);
    }
@@ -180,11 +163,22 @@ iframe::-webkit-scrollbar{
 
 .services{
    will-change: transform;
-   animation: side 10s linear infinite;
+   animation: slide 10s linear infinite;
+   animation-delay: 2s;
 }
 
 .card-grp{
    display: inline-flex;
    flex-shrink: 0;
    gap: 30px;
+}
+
+.service-for{
+   width: 442px;
+    height: 222px;
+   padding: 40px;
+    background-color: var(--theme);
+   box-shadow: 1px 5px 5px black;
+   border-radius: 10px;
+   cursor: pointer;
 }

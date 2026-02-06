@@ -43,12 +43,48 @@ export default function App() {
 		},
 	];
 
+	const servicesCard = [
+    {
+      title: "Web Design & Development",
+      li1: "Custom website development (no templates unless requested)",
+      li2: "Responsive design (mobile-first, always)",
+      li3: "Performance-focused builds (fast load times, clean code)",
+      li4: "CMS integration (WordPress / Headless / Custom) ",
+      note: "👉 Outcome: A site that loads fast, looks professional, and converts users",
+      image: "./img/service-card/1st-card.jpg",
+    },
+    {
+      title: "Web Design & Development",
+      li1: "Custom website development (no templates unless requested)",
+      li2: "Responsive design (mobile-first, always)",
+      li3: "Performance-focused builds (fast load times, clean code)",
+      li4: "CMS integration (WordPress / Headless / Custom) ",
+      note: "👉 Outcome: A site that loads fast, looks professional, and converts users",
+    },
+    {
+      title: "Web Design & Development",
+      li1: "Custom website development (no templates unless requested)",
+      li2: "Responsive design (mobile-first, always)",
+      li3: "Performance-focused builds (fast load times, clean code)",
+      li4: "CMS integration (WordPress / Headless / Custom) ",
+      note: "👉 Outcome: A site that loads fast, looks professional, and converts users",
+    },
+    {
+      title: "Web Design & Development",
+      li1: "Custom website development (no templates unless requested)",
+      li2: "Responsive design (mobile-first, always)",
+      li3: "Performance-focused builds (fast load times, clean code)",
+      li4: "CMS integration (WordPress / Headless / Custom) ",
+      note: "👉 Outcome: A site that loads fast, looks professional, and converts users",
+    },
+  ];
+
 	return (
 		<>
 			<Navbar />
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/services" element={<Services />} />
+				<Route path="/services" element={<Services servicesCard={servicesCard} />} />
 				<Route path="/projects" element={<Projects />} />
 				<Route
 					path="/about"

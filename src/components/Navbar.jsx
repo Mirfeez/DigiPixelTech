@@ -6,11 +6,11 @@ const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	const navClass = ({ isActive }) =>
 		`pageLinks cursor-pointer rounded text-center p-2 transition-colors
-   hover:bg-purple-500 hover:text-black
+   hover:bg-purple-500 hover:text-black 
    ${isActive ? "bg-purple-500 text-black" : ""}`;
 
 	return (
-		<nav className="relative flex justify-between items-center px-6 py-4 shadow-md ">
+		<nav className="relative flex justify-between items-center px-6 py-4 shadow-md z-50">
 			<div className="flex items-center gap-2 p-2 rounded-lg shadow-md ">
 				<img
 					id="logo"
@@ -104,7 +104,7 @@ const Navbar = () => {
 						Contact
 					</NavLink>
 				</div>
-			)}{" "}
+			)}
 		</nav>
 	);
 };

@@ -1,10 +1,9 @@
-import React from "react";
 
 const Contact = () => {
 	return (
 		<div className="contact relative w-full min-h-screen flex items-center justify-center px-4">
 			{/* dark overlay */}
-			<div className="absolute inset-0 bg-black/70"></div>
+			<div className="absolute inset-0 bg-black/70 "></div>
 
 			{/* form container */}
 			<div className="relative z-10 w-full max-w-xl backdrop-blur-md bg-white/3 border border-purple-500/30 rounded-2xl shadow-xl p-8">

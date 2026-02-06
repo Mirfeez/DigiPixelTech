@@ -40,6 +40,8 @@ const Services = () => {
   return (
     <>
       <div className="bg-[url('img/banner/services.png')] w-full h-150">
+      <div className="w-full h-150">
+
         <h1>Services</h1>
       </div>
       <div className="ml-10 overflow-x-hidden mb-20">
@@ -53,7 +55,7 @@ const Services = () => {
               </li>
               <li>Responsive design (mobile-first, always)</li>
               <li>
-                {" "}
+                
                 Performance-focused builds (fast load times, clean code){" "}
               </li>
               <li>CMS integration (WordPress / Headless / Custom) </li>
@@ -141,6 +143,7 @@ const Services = () => {
                 👉 Outcome: Users understand the site faster and stay longer.
               </p>
             </div>
+          </div>
           </div>
         </div>
       </div>

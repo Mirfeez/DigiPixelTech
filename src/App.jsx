@@ -11,38 +11,37 @@ import NotFound from "./pages/NotFound";
 export default function App() {
 
 	const teamMembers = [
-    {
-      img: "",
-      Name: "Azeem",
-      Role: "CEO",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, porro?",
-    },
-    {
-      img: "",
-      Name: "Mirfeez",
-      Role: "CEO",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, porro?",
-    },
-    {
-      img: "",
-      Name: "Other",
-      Role: "Senior dev",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, porro?",
-    },
-    {
-      img: "",
-      Name: "Other2",
-      Role: "Junior dev",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, porro?",
-    },
-    {
-      img: "",
-      Name: "Other3",
-      Role: "Hr",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, porro?",
-    },
-    
-  ];
+		{
+			img: "",
+			Name: "Azeem",
+			Role: "CEO",
+			desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, porro?",
+		},
+		{
+			img: "",
+			Name: "Mirfeez",
+			Role: "CEO",
+			desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, porro?",
+		},
+		{
+			img: "",
+			Name: "Other",
+			Role: "Senior dev",
+			desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, porro?",
+		},
+		{
+			img: "",
+			Name: "Other2",
+			Role: "Junior dev",
+			desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, porro?",
+		},
+		{
+			img: "",
+			Name: "Other3",
+			Role: "Hr",
+			desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, porro?",
+		},
+	];
 
 	return (
 		<>
@@ -51,7 +50,10 @@ export default function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="/services" element={<Services />} />
 				<Route path="/projects" element={<Projects />} />
-				<Route path="/about" element={<About teamMembers={teamMembers} />} />
+				<Route
+					path="/about"
+					element={<About teamMembers={teamMembers} />}
+				/>
 				<Route path="/contact" element={<Contact />} />
 				<Route path="*" element={<NotFound />} />
 			</Routes>

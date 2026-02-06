@@ -78,6 +78,34 @@
    }
 }
 
+/* services  */
+@keyframes sideBySide{
+   0%{
+      transform: translateX(0);
+   }
+   25%{
+      transform: translateX(-25%);
+   }
+   50%{
+      transform: translateX(-50%);
+   }
+   75%{
+      transform: translateX(-75%);
+   }
+   100%{
+      transform: translateX(-100%);
+   }
+}
+
+@keyframes side{
+   from{
+      transform: translateX(0);
+   }
+   to{
+      transform: translateX(-50%);
+   }
+}
+
 .animate-fall-topLeft {
    animation: fallTopLeft 5s linear infinite;
 }
@@ -142,4 +170,21 @@ iframe::-webkit-scrollbar{
 /* nabbar link */
 .pageLinks{
    transition: all ease 0.3s;
+}
+
+/* services  */
+
+.services::-webkit-scrollbar{
+   display: none;
+}
+
+.services{
+   will-change: transform;
+   animation: side 10s linear infinite;
+}
+
+.card-grp{
+   display: inline-flex;
+   flex-shrink: 0;
+   gap: 30px;
 }

@@ -22,7 +22,7 @@ export default function App() {
 		{
 			img: Profile,
 			Name: "Azeem",
-			Role: "member",
+			Role: "Member",
 			desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, porro?",
 			Links: ""
 		},

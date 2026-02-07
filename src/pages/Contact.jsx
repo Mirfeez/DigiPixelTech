@@ -55,7 +55,8 @@ const Contact = () => {
               />
             </div>
 
-            <div>
+<div className="grid grid-cols-2 ">
+            <div className="">
               <p>Project Type :</p>
               <select
                 name="project-type"
@@ -84,7 +85,7 @@ const Contact = () => {
               </select>
             </div>
 
-            <div>
+            <div className="ml-10">
               <p>Project Scope :</p>
               <select name="project-scope" id="" className="options bg-transparent" required>
                 <option value="" disabled selected>
@@ -97,11 +98,11 @@ const Contact = () => {
               </select>
             </div>
 
-            <div>
+            <div className="mt-5">
               <p>Timeline :</p>
               <select name="Timeline" id="" className="options bg-transparent" required>
                 <option value="" disabled selected>
-                  Select a project type
+                  Select a Timeline
                 </option>
                 <option value="ASAP (1-2 weeks)">ASAP (1-2 weeks)</option>
                 <option value="Design-only">3-4 weeks</option>
@@ -109,11 +110,11 @@ const Contact = () => {
               </select>
             </div>
 
-            <div>
+            <div className="ml-10 mt-5">
               <p>Budget Range </p>
               <select name="budget" id="" className="options bg-transparent" required>
                 <option value="" disabled selected>
-                  Select a project type
+                  Select abudget range
                 </option>
                 <option value="Under-₹15,000">Under ₹15,000</option>
                 <option value="₹15,000-₹25,000">₹15,000-₹25,000</option>
@@ -121,9 +122,12 @@ const Contact = () => {
                 <option value="above ₹35,000">above ₹35,000</option>
               </select>
             </div>
+</div>
 
-            <div>
+            <div className="flex flex-col items-center">
+				
               <p>Design Availability</p>
+			  <div className="flex">
               <input
                 type="radio"
                 name="Availability"
@@ -141,6 +145,7 @@ const Contact = () => {
               />
               No
             </div>
+			</div>
 
             <div>
               <p>Project Details</p>

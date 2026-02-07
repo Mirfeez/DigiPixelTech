@@ -121,9 +121,14 @@
   height: 150vh;
 }
 
+.options{
+   color: rgb(189 129 232);
+}
+
 .options *:not(:first-child) {
    color: black;
 }
+
 
 /* .iframe{
    -moz-transform: scale(0.5);
@@ -156,14 +161,19 @@ iframe::-webkit-scrollbar{
   transform: translate3d(0px, -10px, 10px);
 }
 
-/* nabbar link */
+.lists li{
+   list-style: none;
+   margin: 15px 0;
+}
+
+/* navbar link */
 .pageLinks {
   transition: all ease 0.3s;
 }
 
 /* services  */
 
-.services::-webkit-scrollbar {
+/* .services::-webkit-scrollbar {
    background: var(--theme);
    height: 10px;
    margin: 20px 20px;
@@ -177,9 +187,9 @@ iframe::-webkit-scrollbar{
 
 .services {
   will-change: transform;
-  /* animation: slide 10s linear infinite;
-   animation-delay: 2s; */
-}
+   animation: slide 10s linear infinite;
+   animation-delay: 2s; 
+} */
 
 .card-grp {
   display: inline-flex;

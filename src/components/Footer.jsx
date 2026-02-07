@@ -1,5 +1,5 @@
 import React from "react";
-import { Copy, Instagram } from "lucide-react";
+import { Copy, Instagram, Phone } from "lucide-react";
 import { Linkedin } from "lucide-react";
 import { Mail } from "lucide-react";
 import { Whatsapp } from "react-bootstrap-icons";
@@ -41,8 +41,8 @@ const Footer = () => {
           >
             <Instagram size={30} className=" " />
           </a>
-          <a href="" className="p-3 hover:bg-white rounded-full hover:text-blue-700">
-            <Linkedin
+          <a href="tel:+916360836891" className="p-3 hover:bg-white rounded-full hover:text-blue-700">
+            <Phone
               size={30}
               strokeWidth={1.25}
               className=""

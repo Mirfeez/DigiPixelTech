@@ -6,6 +6,7 @@
 
 /* Animations */
 @keyframes float {
+
   0%,
   100% {
     transform: translateY(0px);
@@ -21,6 +22,7 @@
 }
 
 @keyframes tilt {
+
   0%,
   100% {
     transform: rotate(-2deg);
@@ -81,6 +83,7 @@
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-50%);
   }
@@ -96,8 +99,7 @@
 
 /* Background */
 .bg-space {
-  background: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9770934.jpg-Wl31ERQfbntJABIblVId5PIBjqP5Gx.jpeg")
-    no-repeat center center/cover;
+  background: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9770934.jpg-Wl31ERQfbntJABIblVId5PIBjqP5Gx.jpeg") no-repeat center center/cover;
 }
 
 /* UFO */
@@ -122,7 +124,7 @@
 }
 
 .options *:not(:first-child) {
-   color: black;
+  color: black;
 }
 
 /* .iframe{
@@ -163,40 +165,6 @@ iframe::-webkit-scrollbar{
 
 /* services  */
 
-.services::-webkit-scrollbar {
-   background: var(--theme);
-   height: 10px;
-   margin: 20px 20px;
-}
-
-.services::-webkit-scrollbar-thumb {
-   background: gray;
-   border: 2px solid black;
-   border-radius: 8px;
-}
-
-.services {
-  will-change: transform;
-  /* animation: slide 10s linear infinite;
-   animation-delay: 2s; */
-}
-
-.card-grp {
-  display: inline-flex;
-  flex-shrink: 0;
-  gap: 30px;
-}
-
-.service-for {
-  width: 442px;
-  height: 222px;
-  padding: 40px;
-  background-color: var(--theme);
-  box-shadow: 1px 5px 5px black;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.card-bg{
-   filter: brightness(50%);
+.rightcard::-webkit-scrollbar {
+  display: none;
 }

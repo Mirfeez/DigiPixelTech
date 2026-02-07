@@ -4,26 +4,59 @@ const Contact = () => {
 	return (
 		<>
 			{/* <p className="text-6xl">*idg thel style add aakava /// </p> */}
-			<div className="flex flex-col p-10">
-				<h1>Let's Talk — If It's the Right Fit</h1>
-				<p>
-					We specialize in frontend-focused web development and UI work. We
-					don't take on backend-heavy projects or rushed. If you're serious
-					about quality and performance, you're in the right place.
-				</p>
+			<div className="grid md:grid-cols-3 gap-6 px-6 py-12 max-w-6xl mx-auto">
+				{/* Card 1 */}
+				<div
+					className="bg-black/40 backdrop-blur-md border border-purple-500/20 rounded-2xl p-8 
+  transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-purple-900/20"
+				>
+					<h1 className="text-xl font-semibold text-purple-400 mb-4">
+						Let's Talk — If It's the Right Fit
+					</h1>
+
+					<p className="text-gray-300 leading-relaxed">
+						We specialize in frontend-focused web development and UI work.
+						We don't take on backend-heavy projects or rushed builds. If
+						you care about quality and performance, you're in the right
+						place.
+					</p>
+				</div>
+
+				{/* Card 2 */}
+				<div
+					className="bg-black/40 backdrop-blur-md border border-purple-500/20 rounded-2xl p-8 
+  transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-purple-900/20"
+				>
+					<h1 className="text-xl font-semibold text-purple-400 mb-4">
+						What Happens Next
+					</h1>
+
+					<div className="space-y-2 text-gray-300">
+						<p>• We review your request within 24–48 hours</p>
+						<p>
+							• If it's a fit, we'll suggest a short call or next steps
+						</p>
+						<p>• If it's not, we'll tell you honestly — no ghosting</p>
+					</div>
+				</div>
+
+				{/* Card 3 */}
+				<div
+					className="bg-black/40 backdrop-blur-md border border-purple-500/20 rounded-2xl p-8 
+  transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-purple-900/20"
+				>
+					<h1 className="text-xl font-semibold text-purple-400 mb-4">
+						Before You Reach Out
+					</h1>
+
+					<div className="space-y-2 text-gray-300">
+						<p>• Have a clear project or goal</p>
+						<p>• Understand we focus on frontend work only</p>
+						<p>• Be open to focused scope and clear requirements</p>
+					</div>
+				</div>
 			</div>
-			<div className="flex flex-col p-10">
-				<h1>What Happens Next</h1>
-				<p>1. We review your request within 24-48 hours</p>
-				<p>2. If it's a fit, we'll suggest a short call or next steps</p>
-				<p>3. If it's not, we'll tell you honestly-no ghosting</p>
-			</div>
-			<div className="flex flex-col p-10">
-				<h1>Before You Reach Out</h1>
-				<p>Have a clear project or goal</p>
-				<p>Understand we focus on frontend work only</p>
-				<p>Are open to a focused scope and clear requirements</p>
-			</div>
+
 			<div className="contact relative w-full min-h-screen flex items-center justify-center px-4">
 				{/* dark overlay */}
 				<div className="absolute inset-0 bg-black/70 "></div>

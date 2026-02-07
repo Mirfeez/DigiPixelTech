@@ -94,29 +94,7 @@ const Home = () => {
 				</div>
 			</div>
 
-			<div>
-				<div className="flex justify-between my-20  mx-15">
-					<div>
-						<h1 className="text-3xl mb-5">Why Choose Us?</h1>
-						<ul className="lists">
-							<li>✓ &nbsp; Clean, Maintainable code</li>
-							<li>✓ &nbsp; Focused on Performance and Usability</li>
-							<li>✓ &nbsp; Clear Communication and timely delivery</li>
-						</ul>
-					</div>
-					<div>
-						<div className="border-purple-500 border-2 p-10">
-							<h1 className="mb-10">Have a Project In Mind?</h1>
-							<Link
-								to="Projects"
-								className="mt-8 px-6 py-3 w-40 bg-purple-600 text-white rounded-lg cursor-pointer"
-							>
-								Get In Touch
-							</Link>
-						</div>
-					</div>
-				</div>
-			</div>
+			
 
 			<div className="h-150">
 				<h1 className="text-3xl flex justify-self-center my-20">
@@ -134,28 +112,6 @@ const Home = () => {
 				</div>
 			</div>
 			<div>
-				<h1 class="text-4xl flex justify-center mb-20">How We Work</h1>
-				<div className="flex flex-row ml-5">
-					<div className="p-10 pr-8 w-1/4">
-						<h2>1. Planning</h2>
-						<p>Understanding goals and requirements.</p>
-					</div>
-					<div className="text-4xl flex items-center pb-9"> {`>`} </div>
-					<div className="p-10 w-1/4">
-						<h2>2. Design</h2>
-						<p> Creating clean and usable layouts.</p>
-					</div>
-					<div className="text-4xl flex items-center pb-10"> {`>`} </div>
-					<div className="p-8 w-1/4">
-						<h2>3. Development</h2>
-						<p>Building responsive front-end interfaces.</p>
-					</div>
-					<div className="text-4xl flex items-center pb-10"> {`>`} </div>
-					<div className="p-10 w-1/4 pt-7">
-						<h2>4. Delivery</h2>
-						<p> Testing and final deployment.</p>
-					</div>
-				</div>
 				<div className="flex justify-between my-20  mx-15">
 					<div>
 						<h1 className="text-3xl mb-5">Why Choose Us?</h1>

@@ -193,3 +193,9 @@ iframe::-webkit-scrollbar{
 .card-bg{
    filter: brightness(50%);
 }
+
+/* services page  */
+
+.rightcard::-webkit-scrollbar{
+  display: none;
+}

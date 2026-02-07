@@ -1,4 +1,3 @@
-import React from 'react'
 import { Instagram, Whatsapp } from "react-bootstrap-icons";
 import { Mail } from "lucide-react";
 

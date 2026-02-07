@@ -168,3 +168,14 @@ iframe::-webkit-scrollbar{
 .rightcard::-webkit-scrollbar {
   display: none;
 }
+/* footer  */
+@media (max-width:768px) {
+  .left{
+    justify-self: start;
+  }
+}
+@media (min-width:768px) {
+  .quickLinks{
+    margin-left: 2rem;
+  }
+}

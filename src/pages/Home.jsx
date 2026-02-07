@@ -48,7 +48,7 @@ const Home = () => {
 					{homewwd.map((props) => {
 						return (
 							<>
-								<div class="card w-1/3 p-10 bg-">
+								<div class="card w-1/3 p-10">
 									<h2 class="text-center text-xl mb-2">
 										{props.wwdHead}
 									</h2>

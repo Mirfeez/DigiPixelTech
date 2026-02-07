@@ -7,26 +7,10 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import Profile from "./img/Logo/profile-logo.png";
 
 export default function App() {
 
-	const teamMembers = [
-		{
-			img: Profile,
-			Name: "Mirfeez",
-			Role: "Member",
-			desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, Sapiente, porro?",
-			Links: "https://mirfeez.github.io/Mirfeez-portfolio/"
-		},
-		{
-			img: Profile,
-			Name: "Azeem",
-			Role: "member",
-			desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, porro?",
-			Links: ""
-		},
-	];
+
 
 
 	return (
@@ -38,7 +22,7 @@ export default function App() {
 				<Route path="/projects" element={<Projects />} />
 				<Route
 					path="/about"
-					element={<About teamMembers={teamMembers} />}
+					element={<About />}
 				/>
 				<Route path="/contact" element={<Contact />} />
 				<Route path="*" element={<NotFound />} />

@@ -1,71 +1,102 @@
-import React from "react";
-import { Copy, Instagram, Phone } from "lucide-react";
-import { Linkedin } from "lucide-react";
-import { Mail } from "lucide-react";
+import { Link, NavLink } from "react-router-dom";
+import { Phone, Instagram, MailIcon, Target } from "lucide-react";
 import { Whatsapp } from "react-bootstrap-icons";
 
 const Footer = () => {
-  return (
-    <>
-     {/* <div className="flex flex-col min-h-screen m-0 "> */}
-      <footer className="py-10 px-10 mt-25 flex justify-around">
-        <div className="w-1/3 flex justify-center flex-col">
-          <h2>DIGIPIXELTECH</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente,
-            delectus laborum modi accusantium voluptatibus rerum odio quam
-            mollitia provident voluptate.
-          </p>
-        </div>
-        <div className="w-1/3 flex gap-20">
-          <div>
-            <h3 className="text-xl">Services</h3>
-            <p>hh</p>
-            <p>jjj</p>
-            <p>jjjkk</p>
-            <p>kk</p>
-          </div>
-          <div className="list-none">
-            <h3 className="text-xl">Others</h3>
-            <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">About us</a></li>
-            <li><a href="">Contact Us</a></li>
-          </div>
-        </div>
-        <div className="flex flex-col justify-center">
-          <a
-            href="https://www.instagram.com/digipixeltech/"
-            className="decoration-0 p-3 rounded-full hover:bg-white hover:shadow hover:shadow-white hover:text-pink-500"
-          >
-            <Instagram size={30} className=" " />
-          </a>
-          <a href="tel:+916360836891" className="p-3 hover:bg-white rounded-full hover:text-blue-700">
-            <Phone
-              size={30}
-              strokeWidth={1.25}
-              className=""
-            />
-          </a>
-          <a
-            href="mailto:Digipixeltechsolution@gmail.com"
-            className="p-3 hover:bg-white rounded-full hover:text-orange-500"
-          >
-            <Mail size={30} strokeWidth={1.25} className="" />
-          </a>
-          <a
-            href="https://wa.me/917411712661"
-            className="p-3 rounded-full hover:bg-white hover:text-green-400"
-          >
-            <Whatsapp size={30} className=""/>
-          </a>
-        </div>
-      </footer>
-      <p>DigiPixelTech</p>
-    {/*  </div> */}
-    </>
-  );
+	const navClass = ({ isActive }) =>
+		`pageLinks cursor-pointer rounded text-center p-2 transition-colors
+	   hover:bg-purple-500 hover:text-black w-full md:w-40
+	   ${isActive ? "bg-purple-500 text-black" : ""}`;
+	return (
+		<footer className="bg-black text-gray-300 mt-20 border-t border-purple-500/30">
+			<div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-4 gap-10">
+				{/* Company Info */}
+				<div>
+					<h2 className="text-xl font-bold text-white mb-3">
+						DigiPixelTech
+					</h2>
+					<p className="text-sm leading-relaxed">
+						DigiPixelTech is a frontend-focused development studio
+						creating fast, responsive, and user-friendly websites and
+						digital experiences for modern businesses.
+					</p>
+				</div>
+
+				{/* Quick Links */}
+				<div className="left flex flex-col justify-self-center">
+					<h3 className="text-lg quickLinks font-semibold text-white mb-3">
+						Quick Links
+					</h3>
+					<NavLink to="/" className={navClass}>
+						Home
+					</NavLink>
+
+					<NavLink to="/services" className={navClass}>
+						Services
+					</NavLink>
+
+					<NavLink to="/projects" className={navClass}>
+						Projects
+					</NavLink>
+
+					<NavLink to="/about" className={navClass}>
+						About
+					</NavLink>
+
+					<NavLink to="/contact" className={navClass}>
+						Contact
+					</NavLink>
+				</div>
+
+				{/* Services */}
+				<div>
+					<h3 className="text-lg font-semibold text-white mb-3">
+						Services
+					</h3>
+					<ul className="space-y-2 text-sm list-decimal">
+						<li>Web Design & Development</li>
+						<li>Frontend Development (React)</li>
+						<li>UI/UX Improvements</li>
+						<li>Website Performance Optimization</li>
+						<li>Responsive Website Design</li>
+					</ul>
+				</div>
+
+				{/* Contact + Social */}
+				<div>
+					<h3 className="text-lg font-semibold text-white mb-3">
+						Click to Contact
+					</h3>
+
+					<div className="flex flex-wrap gap-3 mb-4">
+						<a Target='_blank'
+							href="https://www.instagram.com/digipixeltech/"
+							className="hover:text-pink-500 -mt-px"
+						>
+							<Instagram />
+						</a>
+						<a Target='_blank'
+							href="https://wa.me/917411712661"
+							className="hover:text-green-400"
+						>
+							<Whatsapp size={22} />
+						</a>
+						<a Target='_blank' href="tel:+916360836891" className="hover:text-green-700">
+							<Phone />
+						</a>
+						<a Target='_blank' href="mailto:digipixeltechsolution@gmail.com?subject=Project Inquiry&body=Hello DigiPixelTech, I want to discuss a project." className="hover:text-gray-500">
+							<MailIcon />
+						</a>
+					</div>
+				</div>
+			</div>
+
+			{/* Bottom Copyright */}
+			<div className="border-t border-purple-500/20 text-center py-4 text-sm text-gray-400">
+				© {new Date().getFullYear()} DigiPixelTech. All rights reserved.
+			</div>
+		</footer>
+	);
 };
 
 export default Footer;

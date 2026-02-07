@@ -8,7 +8,7 @@ const Projects = () => {
 	const projectInfo = [
 		{
 			title: "Restaurant Website",
-			client: "For College Project",
+			client: "College Project",
 			img: Restaurant,
 			// webLink: "https://haseeb-interior.netlify.app/",
 			info: "lorem ipsum a;sdlkfjsdlkf slkjfsl dsklfds fdsfdskjf dsflfkdsf s, fsdkf dsfdf lfds fdskjf dsk dsvmd vdsofdsofj ddfmd ldkf dk  slfdso fj dfhas;ldfajfa;djfldsfdljf  f dsjfdslfjslf ldskf fkl l ds;afj ;sfj sldfj ldfjldsf lsjdfosdjfowejf dklfdsklf",
@@ -50,7 +50,7 @@ const Projects = () => {
 							<h2 className="mt-10 ml-10 text-3xl">
 								{idx + 1}. {props.title}...{" "}
 							</h2>
-							<h3 className="ml-10 text-xl">for {props.client}</h3>
+							<h3 className="ml-10 text-xl">For {props.client}</h3>
 
 							<div className="m-5">
 								<div className="">

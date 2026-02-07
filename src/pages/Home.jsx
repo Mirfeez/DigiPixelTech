@@ -1,5 +1,6 @@
 import { BriefcaseBusiness, Code, MousePointerClick } from "lucide-react";
 import { Link, Links } from "react-router-dom";
+import Mirfeez from "../img/Projects/Portfolio.Mirfeez.png";
 
 const Home = () => {
   const homewwd = [
@@ -69,7 +70,12 @@ const Home = () => {
       </div>
 
       <div className="h-150">
-        <h1>Featured Projects</h1>
+        <h1 className="text-3xl flex justify-self-center my-20">Featured Projects</h1>
+		<div className="h-100 w-150 flex flex-col justify-self-center rounded-2xl shadow-black shadow-2xl">
+			<img src={Mirfeez} alt="" />
+			<h1 className="text-xl ml-7 mt-5">Portfolio Website</h1>
+			<a href="https://mirfeez.github.io/Mirfeez-portfolio/" className="featured-project text-gray-400 ml-7 mt-2 cursor-pointer">View Project</a>
+		</div>
       </div>
       <div>
         <h1 class="text-4xl flex justify-center mb-20">How We Work</h1>
@@ -104,14 +110,14 @@ const Home = () => {
             </ul>
           </div>
           <div>
-            <div className="border-purple-500 border-2 p-10">
-              <h1 className="mb-10">Have a Project In Mind?</h1>
-              <Link
-                to="Projects"
-                className="mt-8 px-6 py-3 w-40 bg-purple-600 text-white rounded-lg cursor-pointer"
+            <div className="flex flex-col justify-center rounded-2xl border-purple-900 border p-10 mr-10">
+              <h1 className="mb-6">Have a Project In Mind?</h1>
+              <a
+                href="/Contact"
+                className="px-6 py-3 w-35 bg-purple-600 text-white rounded-lg cursor-pointer"
               >
 				Get In Touch
-			  </Link>
+			  </a>
             </div>
           </div>
         </div>

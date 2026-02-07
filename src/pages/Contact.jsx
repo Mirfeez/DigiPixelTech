@@ -16,7 +16,7 @@ const Contact = () => {
         <p>2. If it's a fit, we'll suggest a short call or next steps</p>
         <p>3. If it's not, we'll tell you honestly-no ghosting</p>
       </div>
-      <div className="flex flex-col p-10">
+      <div className="flex flex-col p-10 mb-30">
         <h1>Before You Reach Out</h1>
         <p>Have a clear project or goal</p>
         <p>Understand we focus on frontend work only</p>

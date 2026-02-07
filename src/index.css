@@ -168,6 +168,14 @@ iframe::-webkit-scrollbar{
    margin: 15px 0;
 }
 
+.featured-project{
+   transition: 0.2s ease-in-out;
+}
+
+.featured-project:hover{
+   transform: translateY(-3px);
+}
+
 /* navbar link */
 .pageLinks {
   transition: all ease 0.3s;

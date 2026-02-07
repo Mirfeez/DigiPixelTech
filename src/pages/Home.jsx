@@ -23,14 +23,18 @@ const Home = () => {
 				<h2 className="text-4xl font-bold mb-4">
 					We Build Digital Experiences
 				</h2>
-				<p className="text-gray-600 max-w-xl mx-auto">
+				<p className="text-gray-600 max-w-xl mx-auto ">
 					Digipixeltech helps businesses grow with modern websites, apps
 					and digital solutions.
 				</p>
-
-				<Link to="Projects" className="mt-6 px-6 py-3 bg-purple-600 text-white rounded-lg cursor-pointer">
-					See Our Work
-				</Link>
+				<div className="mt-5">
+					<Link
+						to="Projects"
+						className="mt-6 px-6 py-3 bg-purple-600 text-white rounded-lg cursor-pointer"
+					>
+						See Our Work
+					</Link>
+				</div>
 			</section>
 			{/* <div>
 			<h1>Designing and developing modern web systems.</h1>

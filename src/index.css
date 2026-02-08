@@ -4,6 +4,10 @@
   --theme: #150131;
 }
 
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+
 /* Animations */
 @keyframes float {
   0%,

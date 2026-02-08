@@ -252,7 +252,7 @@ iframe::-webkit-scrollbar{
 /* Responsive  */
 /* home page  */
 
-@media (max-width: 400px) {
+@media (max-width:600px) {
   html {
     overflow-x: hidden;
   }

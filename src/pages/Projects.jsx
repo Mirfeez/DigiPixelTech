@@ -79,9 +79,9 @@ const Projects = () => {
 									</span>
 								</a>
 							</div>
-							<div className="m-3 text-center border-b-2 py-3 pb-8">
+							<div className="project-info m-3 text-center border-b-2 py-3 pb-8">
 								<h1 className="text-2xl mb-2 justify-self-center">{props.client}</h1>
-								<p className="text-gray-400">{props.info}</p>
+								<p className="parah text-gray-400">{props.info}</p>
 							</div>
 						</div>
 					);

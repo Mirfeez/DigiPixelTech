@@ -318,8 +318,8 @@ iframe::-webkit-scrollbar{
   }
 
   .home-project {
-    height: 100%;
-    margin-bottom: 20px;
+    height: 120%;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -328,13 +328,14 @@ iframe::-webkit-scrollbar{
 
   .home-project h1 {
     font-size: 20px;
-    margin: 0 -4px 35px 0px;
+    margin: 0;
   }
 
   .home-project div {
     width: 282px;
     height: 214px;
   }
+  
 
   .home-project div h1 {
     font-size: 15px;
@@ -342,7 +343,7 @@ iframe::-webkit-scrollbar{
   }
   .home-project div a {
     font-size: 11px;
-    margin: 5px 0px 0px 12px;
+    margin-bottom: 1rem;
   }
 
   .home-end {
@@ -481,7 +482,10 @@ iframe::-webkit-scrollbar{
   }
 
   .project-info p {
-    font-size: 15px;
+    font-size: 13px;
+  }
+  .project-info{
+    border: none;
   }
 
   /* About page  */

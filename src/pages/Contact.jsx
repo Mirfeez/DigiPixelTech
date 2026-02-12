@@ -152,6 +152,7 @@ const Contact = () => {
                 <select
                   name="projectType"
                   id=""
+                  value={form.projectType}
                   onChange={handleChange}
                   required
                   className="options bg-transparent"
@@ -182,6 +183,7 @@ const Contact = () => {
                 <select
                   name="projectScope"
                   id=""
+                  value={form.projectScope}
                   onChange={handleChange}
                   className="options bg-transparent"
                   required
@@ -201,6 +203,7 @@ const Contact = () => {
                 <select
                   name="timeline"
                   id=""
+                  value={form.timeline}
                   onChange={handleChange}
                   className="options bg-transparent"
                   required
@@ -219,6 +222,7 @@ const Contact = () => {
                 <select
                   name="budget"
                   id=""
+                  value={form.budget}
                   onChange={handleChange}
                   className="options bg-transparent"
                   required

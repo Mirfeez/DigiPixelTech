@@ -3,6 +3,7 @@ import Mirfeez from "../img/Projects/Portfolio.Mirfeez.png";
 import Interior from "../img/Projects/interior.png";
 import spicyRestaurent from "../img/Projects/spicy-restuarent.png";
 import Azeem from "../img/Projects/Portfolio.Azeem.png";
+import loveCalc from "../img/Projects/love-calc.png"
 
 const Projects = () => {
 	const projectInfo = [
@@ -41,6 +42,13 @@ const Projects = () => {
 			img: Restaurant,
 			webLink: "https://github.com/Silent1killer/Thedesires",
 			info: "An early-stage website created during our college studies. The project focused on understanding core web structure and user experience basics, forming the foundation for our current standards in responsive and performance-driven web development.",
+		},
+		{
+			title: "Love Calculator",
+			client: "Simple Frontend Project",
+			img: loveCalc,
+			webLink: "https://p5-love-calculator.onrender.com",
+			info: "A Simple Frontend Project for practice to understand the calculation and to get creative, created during our college studies. And to understand the concept of javascript",
 		},
 	];
 
